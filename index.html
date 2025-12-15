@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DTE AI Chatbot</title>
+    <link rel="icon" href="https://www.dteenergy.com/etc.clientlibs/dte-website/clientlibs/clientlib-site/resources/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Top navigation bar -->
+    <header class="top-header">
+        <div class="nav-left">
+            <span id="live-clock"></span>
+        </div>
+        <div class="nav-center">
+            <img src="https://www.dteenergy.com/etc.clientlibs/dte-website/clientlibs/clientlib-site/resources/images/favicon.ico" 
+                alt="DTE Logo" class="logo">
+        </div>
+        <div class="nav-right">
+            <!-- Optional: can add other links here -->
+        </div>
+    </header>
+
+    <!-- Main content -->
+    <main>
+        <section class="description">
+            <h1>Welcome to DTE Chatbot</h1>
+            <p>
+                This AI-powered chatbot helps you get instant answers about our services,
+                troubleshoot issues, and provide guidance related to your utility account.
+                Try it below!
+            </p>
+        </section>
+
+        <section class="chatbot-section">
+            <div class="chat-container">
+                <div id="chat-box" class="chat-box"></div>
+                <div class="input-area">
+                    <button id="attach-btn" class="icon-btn" title="Attach File">📎</button>
+                    <input type="text" id="user-input" placeholder="Type a message..." />
+                    <button id="mic-btn" class="icon-btn" title="Voice Input">🎤</button>
+                    <button id="send-btn" class="icon-btn" title="Send">➤</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="social-icons">
+            <a href="#"><img src="https://img.icons8.com/ios-filled/30/ffffff/facebook-new.png"/></a>
+            <a href="#"><img src="https://img.icons8.com/ios-filled/30/ffffff/twitter.png"/></a>
+            <a href="#"><img src="https://img.icons8.com/ios-filled/30/ffffff/instagram-new.png"/></a>
+            <a href="#"><img src="https://img.icons8.com/ios-filled/30/ffffff/linkedin.png"/></a>
+        </div>
+        <div class="footer-links">
+            <a href="#">Home</a>
+            <a href="#">Contact</a>
+            <a href="#">Support</a>
+            <a href="#">About</a>
+        </div>
+        <p>© 2025 DTE Energy. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
